@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="caja">
+            <div>Introduce el nombre de las civilizaciones separados por comas </div>
+            <div>
+                <textarea styles="width: 100%" name="civs" id="textArea" cols="200" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="caja">
+            <div>Cantidad de civilizaciones a elegir de forma random</div>
+            <input id="randomCivs" type="number">
+        </div>
+        <div class="botones">
+            <div>
+                <button id="elegir" >Elegir</button>
+            </div>
+            <div>
+                <button id="limpiar">Limpiar</button>
+            </div>
+        </div>
+        <div>
+            <div class="texto-negrita">Civilizaciones seleccionadas</div>
+            <div id="civilizaciones"></div>
+        </div>
+        <div>
+            <div class="texto-negrita">Civilizaciones Incorrectas</div>
+            <div id="incorrectas"></div>
+        </div>
+        <img class="imagen" src="assets/aoe2.jpg" alt="">
+    </div>
+    
+</body>
+</html>
